@@ -1,0 +1,27 @@
+REPORT zz_calc_media_18.
+
+data: v_media TYPE p DECIMALS 2,
+      v_resultado TYPE char100.
+
+PARAMETERS: p_nota1 TYPE p DECIMALS 2,
+            p_nota2 TYPE p DECIMALS 2,
+            p_nota3 TYPE p DECIMALS 2,
+            p_nota4 TYPE p DECIMALS 2.
+
+
+START-OF-SELECTION.
+v_media = ( p_nota1 + p_nota2 + p_nota3 + p_nota4 ) / 4.
+
+
+IF
+  v_media GE 7.
+  v_resultado = 'APROVADO'.
+ ELSE.
+   v_resultado = 'REPROVADO'.
+ENDIF.
+
+PERFORM F_EXIBE_MSG.
+
+FORM F_EXIBE_MSG.
+    WRITE v_resultado.
+ENDFORM.
