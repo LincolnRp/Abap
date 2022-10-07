@@ -2,5 +2,5 @@
 
 <p>Ao longo do workshop realizado pela KA Solution de formação de Consultores ABAP, possibilitado pela empresa Minsait, foram desenvolvidos diversos exercícios individuais, os mesmos se encontram neste repositório.</p>
 
-![images](https://user-images.githubusercontent.com/93271677/194601258-5a114238-ff10-43d1-a06b-0e6eb179d855.png)
-![2022-05-31_11-46_logo](https://user-images.githubusercontent.com/93271677/194601264-352fe003-439e-4864-ad45-05a6c677cb04.png)
+![2022-05-31_11-46_logo](https://user-images.githubusercontent.com/93271677/194602142-0c1c2091-772f-48e2-a69a-d16465d14e15.png)
+![images](https://user-images.githubusercontent.com/93271677/194602132-d1780ee3-177a-442a-93b4-8e46b9815ed8.png)
